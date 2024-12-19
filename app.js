@@ -2,7 +2,7 @@ import { RobJS } from "./RobJS.js";
 import { TodoView } from "./views/TodoView.js";
 
 const app = new RobJS('myapp');
-app.init(app)
+app.init('app')
 
 // Mock data
 const mockTodos = [
